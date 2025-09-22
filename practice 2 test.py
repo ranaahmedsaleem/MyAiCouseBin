@@ -37,10 +37,16 @@ print(heightstr)
 #creating a list
 studentlist=[studentname,studentage,studentheight]
 print("student list =",studentlist)
-print("type of student list =",type(studentlist))
-print("length of student list =",len(studentlist))
 print("student name from list =",studentlist[0])
-print("student age from list =",studentlist[1])
-print("student height from list =",studentlist[2])
-print("type of student name from list =",type(studentlist[0]))
-print("type of student age from list =",type(studentlist[1]))
+
+studentlist.append("455")
+print("student list after append =",studentlist)
+studentlist.insert(1,"200")
+print("student list after insert =",studentlist)
+studentlist.remove(studentheight)
+print("student list after remove =",studentlist)
+
+#creating a tuple
+studenttuple=(studentname,studentage,studentheight)
+print("student tuple =",studenttuple)
+print("student name from tuple =",studenttuple[0])
