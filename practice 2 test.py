@@ -7,3 +7,10 @@ print("type of sum of age and height =",type(sum))
 subtract=studentage-studentheight
 print("subtract of age and height =",subtract)
 print("type of subtract of age and height =",type(subtract))
+
+if (studentage>studentheight):
+    print("age is greater than height")
+    elif studentage<studentheight:
+        print("height is greater than age")
+    else:
+        print("age and height are equal")
