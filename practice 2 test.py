@@ -50,3 +50,17 @@ print("student list after remove =",studentlist)
 studenttuple=(studentname,studentage,studentheight)
 print("student tuple =",studenttuple)
 print("student name from tuple =",studenttuple[0])
+
+#createing a set
+studentset={"ahmed",19,5.8}
+print("student set =",studentset)
+print("student name from set =",studentset)
+studentset.add("7635e3")
+print("student set after add =",studentset)
+studentset.remove(19)
+
+#createing a dictionary
+studentdict={"name":"ahmed saleem","age":19,"height":5.8}
+print("student dictionary =",studentdict)
+print("student name from dictionary =",studentdict["name"])
+studentdict["age"]=20
