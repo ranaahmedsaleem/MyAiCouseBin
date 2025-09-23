@@ -1,0 +1,4 @@
+newstr=str(input("enter a string: "))
+print("first character of the string is: ",newstr[0])
+print("last character of the string is: ",newstr[-1])
+print("middle character of the string is: ",newstr[len(newstr)//2])

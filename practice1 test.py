@@ -9,3 +9,4 @@ print("student name =",studentname)
 print("student age=",type(studentage))
 print("student height=",type(studentheight))
 print("student name =",type(studentname))
+

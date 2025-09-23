@@ -55,7 +55,8 @@ print("student name from tuple =",studenttuple[0])
 studentset={"ahmed",19,5.8}
 print("student set =",studentset)
 print("student name from set =",studentset)
-studentset.add("7635e3")
+studentset.add("7635e3" \
+"")
 print("student set after add =",studentset)
 studentset.remove(19)
 
